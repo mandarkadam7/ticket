@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket</title>
+    <style>
+        .body{
+            border-style: none;
+            border-radius: 20px;
+            
+            display: flex;
+            flex-direction: row;
+            width:  1000px;
+            height: 400px;
+        }
+        .item1{
+            width: 65%;
+            
+            background-color: rgb(228, 71, 150);
+            border-radius: 20px;
+            border-style: solid;
+            border-right: dotted;
+            border-width: 3px;
+            padding: 15px;
+            color: aliceblue;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+            position: relative;
+           
+        }
+        .logo{
+            position: absolute;
+            right:40px;
+            top: 40px;
+            height: 140px;
+            width: 145px;
+          
+        }
+        .qrcode{
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            height: 140px;
+        }
+        .item2{
+            width: 43%;
+            
+            border-style: solid;
+            border-color: aliceblue;
+            border-bottom: none;
+            border-radius: 20px;
+            border-width: 3px;
+            background-color: rgb(223, 55, 203);
+            padding: 10px;
+            
+            color: aliceblue;
+            font-size: 18px;
+            font-weight: 700;           
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transform: rotate(-270deg);
+            position: relative;
+        }
+        .barcode{
+            height: 90px;
+            width: 300px;
+        }
+        .logo2{
+            position: absolute;
+            top: 25px;
+            left: 15px;
+            height: 70px;
+            margin-right: 12px;
+        }
+        .cursive{
+            font-size: 40px;
+           font-family:'Times New Roman', Times, serifArial, Helvetica, sans-serif;
+           color: black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <div class="body">
+        <div class="item1">
+            <img src="logoclg.png" class="logo"/><i> At C.T.Bora College Shirur,Pune</i>
+            <img src="qr.png" class="qrcode"/>
+           <h1> ROCK & ROLL</h1>
+            <h2>LIVE MUSIC</h2>
+          <i><u class="cursive">Club House</u></i>
+          <h2>31 DEC | 20:00</h2>
+        </div>
+
+        <div class="item2">
+            <center>
+            <h1> ROCK & ROLL</h1>
+            <h2>LIVE MUSIC</h2>
+          <i><u class="cursive">Club House</u></i>
+          <h2>31 DEC | 20:00</h2>
+          <img src="barcode.png" class="barcode"/>
+          <img src="logoclg.png" class="logo2"/>
+          </center>
+        </div>
+    </div>
+</form>
+    
+</body>
+</html>
